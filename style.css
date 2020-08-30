@@ -1,0 +1,248 @@
+.title{
+    display: block;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 4vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+.title span:nth-child(2) {
+    background: #FF9900;
+    color: #000000;
+    border-radius: 1vw;
+    padding: 0 1vw 1vw 1vw;
+    display: inline-block;
+}
+
+input[type=text],input[type=password]{
+    background-color: #333333;
+    color: #555555;
+    border: none;
+    border-bottom: 2px solid orange;
+    font-size: 20px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+
+
+input[type=submit]{
+    border-radius: 2px;
+    background-color: orange;
+    color: black;
+    border: none;
+    font-size: 20px;
+    padding-bottom: 4px;
+    font-weight: bold;
+    margin-left: 40px;
+    
+}
+
+#date_up{
+    color: #555555;
+    font-family: sans-serif;
+}
+
+#forms{
+    padding-top: 40px;
+
+}
+
+#hub{
+    background: #000000;
+    color: #ffffff;
+    margin: 0;
+    min-height: 100%;
+    height: 100%;
+    position: relative;
+
+  }
+
+
+#Discord{
+    background-color:black;
+    color:white;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+
+/*Tabs*/
+.tabs{
+    overflow: hidden;
+    border: none;
+    background-color:rgb(0, 0, 0);
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.tabs button{
+    background-color: black;
+    transition: 0.4s;
+}
+
+
+
+.tabs button:hover{
+    background-color: #333333;
+    color: orange;
+    
+}
+
+.tablinks{
+    background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 20px;
+  width: 25%;
+}
+
+.tabs button.active{
+    background-color: #333333;
+    color: orange;
+    
+}
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: none;
+    border-top: none;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+#gta_1{
+    color: whitesmoke;
+    margin-right: 35%;
+    border: orange;
+    background-color: black;
+    padding: 10px;
+    border-radius: initial;
+    width: 600PX;
+    margin-top: 20px;
+    border-left-style: solid;
+    border-left-color: orange;
+    border-left-width: 5px;
+}
+
+#gta_2{
+    color: whitesmoke;
+    margin-right: 35%;
+    border: orange;
+    background-color: black;
+    padding: 10px;
+    border-radius: initial;
+    width: 600PX;
+    margin-top: 20px;
+    border-left-style: solid;
+    border-left-color: orange;
+    border-left-width: 5px;
+}
+
+#roblox_1{
+    color: whitesmoke;
+    margin-right: 35%;
+    border: orange;
+    background-color: black;
+    padding: 10px;
+    border-radius: initial;
+    width: 600PX;
+    margin-top: 20px;
+    border-left-style: solid;
+    border-left-color: orange;
+    border-left-width: 5px;
+}
+
+#roblox_2{
+    color: whitesmoke;
+    margin-right: 35%;
+    border: orange;
+    background-color: black;
+    padding: 10px;
+    border-radius: initial;
+    width: 600PX;
+    margin-top: 20px;
+    border-left-style: solid;
+    border-left-color: orange;
+    border-left-width: 5px;
+}
+
+#csgo_1{
+    color: whitesmoke;
+    margin-right: 35%;
+    border: orange;
+    background-color: black;
+    padding: 10px;
+    border-radius: initial;
+    width: 600PX;
+    margin-top: 20px;
+    border-left-style: solid;
+    border-left-color: orange;
+    border-left-width: 5px;
+}
+
+#csgo_2{
+    color: whitesmoke;
+    margin-right: 35%;
+    border: orange;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: initial;
+    width: 600PX;
+    margin-top: 20px;
+    border-left-style: solid;
+    border-left-color: orange;
+    border-left-width: 5px;
+}
+
+#fortnite_1{
+    color: whitesmoke;
+    margin-right: 35%;
+    border: orange;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: initial;
+    width: 600PX;
+    margin-top: 20px;
+    border-left-style: solid;
+    border-left-color: orange;
+    border-left-width: 5px;
+}
+
+#fortnite_2{
+    color: whitesmoke;
+    margin-right: 35%;
+    border: orange;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: initial;
+    width: 600PX;
+    margin-top: 20px;
+    border-left-style: solid;
+    border-left-color: orange;
+    border-left-width: 5px;
+}
+
+.footer-title{
+    color: whitesmoke;
+    padding: 10px;
+    font-family: 'Work Sans', sans-serif;
+    background: #000;
+    margin-top: 20px;
+    position:absolute;
+    left:0;
+    right:0;
+}
+
+#list{
+    color: whitesmoke;
+}
